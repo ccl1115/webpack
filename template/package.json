@@ -25,8 +25,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
     "vue": "^2.5.2"{{#router}},
-    "vue-router": "^3.0.1"{{/router}}
+    "vue-router": "^3.0.1"{{/router}},
+    "vue-axios": "^2.1.1",
+    "koa-mount": "^3.0.0",
+    "koa-static": "^4.0.2"
   },
   "devDependencies": {
     {{#lint}}
